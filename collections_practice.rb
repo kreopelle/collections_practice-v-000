@@ -64,7 +64,8 @@ end
 def kesha_maker(array)
   collection = []
   array.each do |string|
-    collection << string[2] = "$"
+    string[2] = "$"
+    collection << string
   end
   collection
 end
