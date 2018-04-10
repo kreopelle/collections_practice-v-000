@@ -82,8 +82,9 @@ end
 
 def add_s(array)
   array.each_with_index.collect do |element, index|
-    if !element[2]
     element + "s"
-    end
+  end
+  element[2].pop
+  array
   end
 end
