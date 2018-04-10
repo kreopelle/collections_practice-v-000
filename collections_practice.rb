@@ -86,5 +86,4 @@ def add_s(array)
   end
   element[2].pop
   array
-  end
 end
