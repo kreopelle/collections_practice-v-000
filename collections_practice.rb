@@ -67,7 +67,7 @@ def kesha_maker(array)
   while i < array.length
     collection << array[i][2] = '$'
     i += 1
-    end
+  end
   collection
 end
 
