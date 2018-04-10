@@ -67,4 +67,3 @@ def reverse_array(int_array)
     int_array[int] = int_array[-(int)]
   end
 end
-
