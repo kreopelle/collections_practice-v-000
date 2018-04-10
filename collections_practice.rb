@@ -63,7 +63,5 @@ def swap_elements_from_to(array, index, destination_index)
 end
 
 def reverse_array(int_array)
-  int_array.sort do |int|
-    int_array[int] = int_array[-(int)]
-  end
+  int_array.reverse
 end
