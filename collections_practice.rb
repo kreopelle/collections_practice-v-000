@@ -47,3 +47,17 @@ def swap_elements(array)
 #  array.pop
   swapped_array
 end
+
+def swap_elements_from_to(array, index, destination_index)
+  swapped_array = array
+  swapped_array << array[index]
+  swapped_array[index] = array[destination_index]
+  swapped_array[destination_index] = swapped_array[-1]
+  swapped_array.pop
+#  item_2 = array[2]
+#  array << item_1
+#  item_2 = array[1]
+#  array[-1] = array[2]
+#  array.pop
+  swapped_array
+end
