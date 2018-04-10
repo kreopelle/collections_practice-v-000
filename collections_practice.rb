@@ -62,13 +62,10 @@ def reverse_array(int_array)
 end
 
 def kesha_maker(array)
-  i = 0
   collection = []
-  while i < array.length
-    collection << array[i][2] = '$'
-    i += 1
+  array.each do |string|
+    collection << string[2] = "$"
   end
-  collection
 end
 
 #kesha_maker(array) do |i|
