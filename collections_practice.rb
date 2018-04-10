@@ -70,9 +70,11 @@ def kesha_maker(array)
   collection
 end
 
-#kesha_maker(array) do |i|
-#  i[2] = "$"
-#end
-# kesha = "kesha"
-# kesha[2] = '$'
-# kesha => "ke$ha"
+def find_a(array)
+  array.select do |string|
+    string.start_with? "a"
+  end
+end
+
+
+  
