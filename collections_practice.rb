@@ -67,5 +67,4 @@ def kesha_maker(array)
   while i < array.length
     collection << yield(array[i])
     i += 1
-  end 
-  
+  end
