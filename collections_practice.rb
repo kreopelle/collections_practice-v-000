@@ -35,11 +35,15 @@ def sort_array_char_count(str_array)
 end
 
 def swap_elements(array)
-  item_1 = array[1]
-  item_2 = array[2]
-  array << item_1
-  item_2 = array[1]
-  array[-1] = array[2]
-  array.pop
-  array
+  swapped_array = array
+  swapped_array << array[1]
+  swapped_array[1] = array[2]
+  swapped_array[2] = swapped_array[-1]
+  swapped_array.pop
+#  item_2 = array[2]
+#  array << item_1
+#  item_2 = array[1]
+#  array[-1] = array[2]
+#  array.pop
+  swapped_array
 end
