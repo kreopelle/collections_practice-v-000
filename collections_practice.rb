@@ -82,7 +82,7 @@ end
 
 def add_s(array)
   array.each_with_index.collect do |element, index|
-    if element[index] != element[1]
+    if !element[2]
     element + "s"
   end
 end
