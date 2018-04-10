@@ -65,6 +65,15 @@ def kesha_maker(array)
   i = 0
   collection = []
   while i < array.length
-    collection << yield(array[i])
+    collection << array[i][2] = '$'
     i += 1
-  end
+    end
+  collection
+end
+
+#kesha_maker(array) do |i|
+#  i[2] = "$"
+#end
+# kesha = "kesha"
+# kesha[2] = '$'
+# kesha => "ke$ha"
