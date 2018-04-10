@@ -37,6 +37,9 @@ end
 def swap_elements(array)
   item_1 = array[1]
   item_2 = array[2]
-  array[2] = item_2
-  array[1] = item_1
+  array << item_1
+  item_2 = array[1]
+  array[-1] = array[2]
+  array.pop
+  array
 end
