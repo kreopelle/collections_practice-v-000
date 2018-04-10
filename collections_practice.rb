@@ -66,6 +66,7 @@ def kesha_maker(array)
   array.each do |string|
     collection << string[2] = "$"
   end
+  collection
 end
 
 #kesha_maker(array) do |i|
