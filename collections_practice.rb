@@ -64,4 +64,7 @@ end
 
 def reverse_array(int_array)
   int_array.sort do |int|
-    
+    int_array[int] = int_array[-(int)]
+  end
+end
+
